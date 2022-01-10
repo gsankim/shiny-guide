@@ -3,8 +3,15 @@ body{
     margin: 0px;
 }
 h1{
-    font-size: 50px;
+    font-size: 40px;
+    text-align: center;
+    position: static;
+    h1 {text-align: center;}
     
+    }
+    .mission{
+        color:darksalmon;
+        text-align: center;
     }
     .orange-color{
         color:orange;
@@ -32,6 +39,9 @@ h1{
                 font-weight: 700;
                 border-radius:5px ;
             }
+            .year{
+                color: burlywood;
+            }
             .top-banner{
                 background-image: url(images/top-banner.png);
                 background-repeat: no-repeat;
@@ -41,3 +51,57 @@ h1{
                 background-repeat: no-repeat;
                 background-position: right;
             }
+            div{
+                text-align: center;
+                width:250px;
+                height: 750px;
+                border:darksalmon 5px;
+                padding:15px;
+                margin:15px;
+                border-radius: 8px;
+            }
+            
+            #column1 {
+                background-color: rgb(227, 255, 127);
+                width:500px;
+                hight:150px;
+                margin: 5px;
+            }
+            #column2 {
+                background-color: rgb(64, 211, 162);
+                width:550px;
+                hight:150px;
+                margin: 5px;
+            }
+            #column3 {
+                background-color: rgb(221, 151, 21);
+                width:550px;
+                hight:150px;
+                margin: 5px;
+            }
+            #mission{
+                margin: 20px center;
+                float:static ;
+                padding: 20px ; 
+                margin: 20px;
+                position:right;
+                
+            }
+            
+            
+        footer p {
+            text-align: center;
+            margin-bottom: 50px;
+
+             
+
+            }
+            
+
+            
+            
+
+
+        
+            
+            
